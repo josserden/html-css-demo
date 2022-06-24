@@ -69,4 +69,152 @@ body {
   line-height: 1.67;
 }
 
+.accent {
+  color: var(--accent-color);
+}
+
 /* Header */
+
+.header {
+  background-color: var(--main-light);
+}
+
+.logo {
+  font-size: 36px;
+  color: var(--main-dark);
+
+  line-height: 1.5;
+}
+
+.nav-list {
+  padding-left: 0;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+
+  color: var(--secondary-color);
+  text-transform: capitalize;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-btn {
+  font-size: 24px;
+  line-height: 1.5;
+  text-transform: capitalize;
+
+  color: var(--secondary-color);
+  background-color: var(--main-light);
+
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  color: var(--main-light);
+  background-color: var(--secondary-color);
+}
+
+/* Hero */
+
+.hero-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+
+  color: var(--main-dark);
+}
+
+.hero-description {
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: var(--main-color);
+}
+
+.hero-btn {
+  font-size: 36px;
+  line-height: 1.5;
+  color: var(--main-light);
+
+  border: 2px solid var(--secondary-color);
+  background: var(--secondary-color);
+  border-radius: 15px;
+}
+
+/* .hero-btn:hover,
+.hero-btn:focus {
+  color: var(--secondary-color);
+
+  background: var(--main-light);
+} */
+
+/* Skills */
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 18px;
+  grid-row-gap: 20px;
+
+  padding-left: 0;
+}
+
+.skills-item {
+  background: var(--card-bg);
+  border-radius: 10px;
+}
+
+.card1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.card2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.card3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.card4 {
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+.skills-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 2.67;
+
+  color: var(--secondary-color);
+}
+
+.skills-text {
+  line-height: 1.5;
+}
+
+.skills-btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+
+  color: var(--main-light);
+
+  border: 2px solid var(--secondary-color);
+  background: var(--secondary-color);
+  border-radius: 5px;
+}
+
+.skills-btn:hover,
+.skills-btn:focus,
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--secondary-color);
+
+  background-color: var(--main-light);
+}
