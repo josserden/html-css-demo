@@ -1,0 +1,72 @@
+:root {
+  /* Font */
+  --font-family: 'Poppins', sans-serif;
+
+  /* Colors */
+  --main-light: #ffffff;
+  --main-dark: #000000;
+  --main-color: #8f95a5;
+
+  --secondary-color: #263238;
+  --accent-color: #939393;
+
+  --card-bg: #f5f5f5;
+  --counter-color: #2a3246;
+  --badge-bg: #eeeeee;
+  --badge-color: #546269;
+  --border-color: #c4c4c4;
+}
+
+/* Common */
+
+body {
+  font-family: var(--font-family);
+  color: var(--main-color);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.link {
+  text-decoration: none;
+  font-family: inherit;
+}
+
+.list {
+  list-style: none;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  color: inherit;
+
+  cursor: pointer;
+}
+
+.section {
+  background-color: var(--main-light);
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--main-dark);
+
+  line-height: 1.67;
+}
+
+/* Header */
